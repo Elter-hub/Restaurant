@@ -26,7 +26,6 @@ module.exports = (client, DataTypes) => {
 
     Cook.hasMany(Meal, {
         foreignKey: 'cook_id',
-        onDelete: 'cascade'
     });
 
     return Cook;

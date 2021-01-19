@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a70e2c00-53ea-4934-be7f-2c3f63678d57" name="Default Changelist" comment="before trying to deploy">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+    <list default="true" id="a70e2c00-53ea-4934-be7f-2c3f63678d57" name="Default Changelist" comment="lint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/meal.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/meal.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataBase/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataBase/models/Cook.js" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/models/Cook.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataBase/models/Meal.js" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/models/Meal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/cook.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/cook.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/meal.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/meal.router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/cook.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/cook.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/meal.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/meal.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validators/newCookValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/validators/newCookValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validators/newMealValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/validators/newMealValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +62,7 @@
       <workItem from="1611060153472" duration="115000" />
       <workItem from="1611060294388" duration="36000" />
       <workItem from="1611060373736" duration="7757000" />
-      <workItem from="1611070097283" duration="15442000" />
+      <workItem from="1611070097283" duration="17052000" />
     </task>
     <task id="LOCAL-00001" summary="before trying to deploy">
       <created>1611077064434</created>
@@ -90,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611089248353</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lint">
+      <created>1611090116905</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611090116905</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +93,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="before trying to deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="before trying to deploy" />
+    <MESSAGE value="lint" />
+    <option name="LAST_COMMIT_MESSAGE" value="lint" />
   </component>
   <component name="WindowStateProjectService">
     <state x="454" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611051856592">
