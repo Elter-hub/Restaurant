@@ -6,6 +6,7 @@ const swaggerJsDoc = require('swagger-jsdoc');
 const db = require('./dataBase').getInstance();
 
 const app = express();
+const PORT = process.env.PORT || 5000;
 db.setModels();
 
 const swaggerOptions = {
@@ -28,6 +29,6 @@ app.use(express.json());
 app.use('/cook', cookRouter);
 app.use('/menu', mealRouter);
 
-app.listen(5000, () => {
-    console.log('App listen 5000');
+app.listen(PORT, () => {
+    console.log(`App listen ${PORT}`);
 });
