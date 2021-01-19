@@ -5,9 +5,10 @@ const { Sequelize, DataTypes } = require('sequelize');
 module.exports = (() => {
     let instance;
 
+    //mysql://bd055f67430af8:a869f2dd@eu-cdbr-west-03.cleardb.net/heroku_a0ec65ae43913dd?reconnect=true
     const initConnection = () => {
-        const client = new Sequelize('restaurant', 'root', 'root', {
-            host: 'localhost',
+        const client = new Sequelize('heroku_a0ec65ae43913dd', 'bd055f67430af8', 'a869f2dd', {
+            host: 'eu-cdbr-west-03.cleardb.net',
             dialect: 'mysql'
         });
 

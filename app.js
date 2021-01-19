@@ -2,6 +2,9 @@ const express = require('express');
 const {cookRouter, mealRouter} = require('./routes')
 const swaggerUI = require('swagger-ui-express');
 const swaggerJsDoc = require('swagger-jsdoc');
+const exprsHbs = require('express-handlebars');
+const path = require('path');
+
 
 const db = require('./dataBase').getInstance();
 
@@ -14,7 +17,7 @@ const swaggerOptions = {
         info: {
             version: "1.0.0",
             title: "Restaurant API",
-            servers: ["http://localhost:5000"]
+            servers: ["http://localhost:5000", "https://restaurants-task.herokuapp.com/"]
         }
     },
     apis: ["./routes/*.js"],
@@ -26,8 +29,19 @@ app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocs));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+
 app.use('/cook', cookRouter);
 app.use('/menu', mealRouter);
+
+app.set('view engine', '.hbs');
+app.engine('.hbs', exprsHbs({
+    defaultLayout: false
+}));
+app.set('views', path.join(process.cwd(), 'views'));
+
+app.get('/', (req, res) => {
+    res.render('home', );
+})
 
 app.listen(PORT, () => {
     console.log(`App listen ${PORT}`);
