@@ -28,15 +28,6 @@ app.use(express.json());
 app.use('/cook', cookRouter);
 app.use('/menu', mealRouter);
 
-app.use('*', (err, req, res, next) => {
-    res
-        .status(err.code || 500)
-        .json({
-            message: err.message,
-            ok: false
-        });
-});
-
 app.listen(5000, () => {
     console.log('App listen 5000');
 });

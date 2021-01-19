@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a70e2c00-53ea-4934-be7f-2c3f63678d57" name="Default Changelist" comment="" />
+    <list default="true" id="a70e2c00-53ea-4934-be7f-2c3f63678d57" name="Default Changelist" comment="before trying to deploy">
+      <change afterPath="$PROJECT_DIR$/validators/newCookValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validators/newMealValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/cook.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/cook.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/meal.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/meal.controller.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1nHbgD8DQwACHtPfIJsyVBcPa2X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,12 +53,24 @@
       <workItem from="1611060153472" duration="115000" />
       <workItem from="1611060294388" duration="36000" />
       <workItem from="1611060373736" duration="7757000" />
-      <workItem from="1611070097283" duration="5768000" />
+      <workItem from="1611070097283" duration="9165000" />
     </task>
+    <task id="LOCAL-00001" summary="before trying to deploy">
+      <created>1611077064434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611077064434</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="before trying to deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="before trying to deploy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="454" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611051856592">
