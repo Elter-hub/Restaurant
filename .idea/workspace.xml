@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a70e2c00-53ea-4934-be7f-2c3f63678d57" name="Default Changelist" comment="lint">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataBase/models/Cook.js" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/models/Cook.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       <workItem from="1611060153472" duration="115000" />
       <workItem from="1611060294388" duration="36000" />
       <workItem from="1611060373736" duration="7757000" />
-      <workItem from="1611070097283" duration="17052000" />
+      <workItem from="1611070097283" duration="17442000" />
     </task>
     <task id="LOCAL-00001" summary="before trying to deploy">
       <created>1611077064434</created>
