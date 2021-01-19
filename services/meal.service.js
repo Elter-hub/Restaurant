@@ -9,8 +9,14 @@ module.exports = {
 
     showMenu: async () => {
         const MealModel = db.getModel('Meal');
-        const allMeals = await MealModel.findAll({attributes: ['label', 'price', 'ingredients']});
+        const allMeals = await MealModel.findAll({
+            attributes: [
+                'label',
+                'price',
+                'ingredients'
+            ]
+        });
 
         return allMeals;
     }
-}
+};

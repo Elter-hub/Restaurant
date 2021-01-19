@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {addNewMeal, selectAllMeals} = require('../controllers/meal.controller')
+const { addNewMeal, selectAllMeals } = require('../controllers/meal.controller');
 
 /**
  * @swagger
@@ -11,7 +11,7 @@ const {addNewMeal, selectAllMeals} = require('../controllers/meal.controller')
  *         description: Success
  *
  */
-router.get('/', selectAllMeals)
+router.get('/', selectAllMeals);
 /**
  * @swagger
  * /menu:
@@ -42,6 +42,6 @@ router.get('/', selectAllMeals)
  *       201:
  *         description: Created
  */
-router.post('/', addNewMeal)
+router.post('/', addNewMeal);
 
 module.exports = router;

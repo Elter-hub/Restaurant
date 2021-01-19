@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {addNewCook, selectAllCooks} = require('../controllers/cook.controller')
+const { addNewCook, selectAllCooks } = require('../controllers/cook.controller');
 
 /**
  * @swagger
