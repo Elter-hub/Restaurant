@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a70e2c00-53ea-4934-be7f-2c3f63678d57" name="Default Changelist" comment="lint">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="a70e2c00-53ea-4934-be7f-2c3f63678d57" name="Default Changelist" comment="lint" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +58,7 @@
       <workItem from="1611060153472" duration="115000" />
       <workItem from="1611060294388" duration="36000" />
       <workItem from="1611060373736" duration="7757000" />
-      <workItem from="1611070097283" duration="17442000" />
+      <workItem from="1611070097283" duration="17853000" />
     </task>
     <task id="LOCAL-00001" summary="before trying to deploy">
       <created>1611077064434</created>
@@ -136,5 +133,9 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611089939257" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1611093812923">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1611093812923" />
   </component>
 </project>
