@@ -13,6 +13,9 @@
     <a href="/cook">Show all cooks</a>
     <br>
     <a href="/menu">Show all meals</a>
+    <br>
+    <a href="/api-docs" style="color: red">Swagger!</a>
+
 
     <form action="/cook" method="post">
         <label>Cooks name</label>
@@ -25,12 +28,16 @@
     <form action="/menu" method="post">
         <label>Cook's id</label>
         <input type="number" name="cook_id" placeholder="Cook's cook_id">
+        <br>
         <label>Meal label</label>
         <input type="text" name="label" placeholder="Meal label">
+        <br>
         <label>Price</label>
         <input type="number" name="price" placeholder="Price">
+        <br>
         <label>Ingredients</label>
         <input type="text" name="ingredients" placeholder="Ingredients">
+        <br>
         <input type="submit" value="Add">
     </form>
 </body>
